@@ -15,7 +15,7 @@ Testing HTTP handlers that are closer to reality, not fake ones like in the 4th 
 You can implement this through separate structures that satisfy the specified interface. For example, alongside another repository, you could have session_jwt.go + session_mysql.go + session_redis.go.
 
 Requirements:
-go v16 or higher
+go v16 or higher,
 docker
 
 How to run:
